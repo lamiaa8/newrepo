@@ -8219,7 +8219,7 @@ div.cs-select span {
 }
 
 .fh5co-counters {
-  padding: 3em 0;
+  padding: 9em 0 5em 0;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -9344,3 +9344,81 @@ input[type="text"] {
 }
 
 /*# sourceMappingURL=style.css.map */
+.footer {
+  padding-bottom: 50px; 
+}
+  .footer .content-footer {
+    padding-left: 50px; }
+  .footer img {
+    margin-top: 15px;
+    margin-bottom: 0;
+    max-width: 135px;
+    max-height: 70px;
+    width: 100%;
+    height: 100%; }
+.footer h2 {
+  margin-top: 50px;
+  font-size: 30px;
+font-family: 'Josefin Sans', sans-serif;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #333333;
+  font-weight: 600; }
+.footer ul {
+  margin-top: 15px;
+  text-align: left; }
+.footer ul li {
+  display: block;
+  padding: 5px 0;
+  font-size: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #666666; }
+.footer ul li a {
+  font-size: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #666666; }
+.footer i {
+  padding: 0 10px;
+  margin-top: 20px;
+  color: #CCCCCC; }
+.footer .list-inline input {
+  border: none;
+  background: none;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin: 10px 0; }
+.footer .list-inline button {
+  border: none;
+  background: none;
+  position: absolute;
+  right: 0;
+  bottom: 30%;
+  color: #999999; 
+}
+
+.footer ul li a:hover {
+  text-decoration: none;
+  color: black; }
+
+.footer i:hover {
+  color: #FF5722; }
+
+.footer .list-inline input:focus {
+  outline: none; }
+.arrow_top {
+  color: #333;
+  position: fixed;
+  bottom: -120px;
+  right: 20px;
+  text-align: center;
+  z-index: 999;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border: 1px solid;
+  cursor: pointer;
+  transition: background-color 0.3s linear;
+  opacity: 0;
+  visibility: hidden;
+}
